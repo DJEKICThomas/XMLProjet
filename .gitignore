@@ -1,0 +1,11 @@
+# Ignorer le dossier des ressources
+
+ProjetXML/src/resources
+ProjetXML/out
+
+# Ignorer le dossier de compilation / sortie
+out/
+
+# Ignorer les dossiers et fichiers IDE
+.idea/
+*.iml
