@@ -6,10 +6,15 @@ import java.io.File;
 public class MainXSLT {
     public static void main(String[] args) {
 
-        //String xml = "src/resources/images.xml";
-        String xml = "src/resources/images_xsd.xml";
-        String xsl = "src/resources/images.xsl";
-        String output = "src/resources/images.html";
+        String xml = "src/resources/images.xml";
+        //String xml = "src/resources/images_xsd.xml";
+        //String xsl = "src/resources/images.xsl";
+        //String output = "src/resources/images.html";
+
+
+        // Version plus belle :
+        String xsl = "src/resources/imagesv2.xsl";
+        String output = "src/resources/imagesv2.html";
 
         try {
             TransformerFactory factory = TransformerFactory.newInstance();
