@@ -13,8 +13,12 @@ public class MainXSLT {
 
 
         // Version plus belle :
-        String xsl = "src/resources/imagesv2.xsl";
-        String output = "src/resources/imagesv2.html";
+        //String xsl = "src/resources/imagesv2.xsl";
+        //String output = "src/resources/imagesv2.html";
+
+        // Version encore plus belle :
+        String xsl = "src/resources/imagesv3.xsl";
+        String output = "src/resources/imagesv3.html";
 
         try {
             TransformerFactory factory = TransformerFactory.newInstance();
